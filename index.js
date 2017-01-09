@@ -14,7 +14,7 @@ module.exports = {
       app = app.app;
     }
 
-    app.import('vendor/graphql.amd.js')
+    app.import('vendor/graphql.js')
   },
 
   treeForVendor(tree) {
@@ -24,7 +24,7 @@ module.exports = {
       output: {
         library: 'graphql',
         libraryTarget: 'amd',
-        filename: 'graphql.amd.js'
+        filename: 'graphql.js'
       }
     });
 
